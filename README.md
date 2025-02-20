@@ -1,1 +1,1 @@
-# Blinket-Sales
+# Blinkit-Sales
