@@ -3,12 +3,36 @@
 ### Purpose:
 This project aims to analyze sales data to uncover trends, optimize inventory management, and evaluate marketing effectiveness. By leveraging Python libraries like Pandas, Matplotlib, and NumPy, I will explore patterns in sales, delivery efficiency, and marketing effeciency in order to produce a concise report containing actionable insights and recommendations.
 
+### Dataset Description:
+Blinkit is an online grocery delivery service based in India. For familiarity purposes, I converted all prices from the Indian Rupee to the United States Dollar. The exchange rate used is current as of March 2025. The original Blinkit Sales dataset consists of 9 different CSV files containing information in different categories such as products, deliveries, and customers. The EDA process document is organized by file, where the cleaning, manipulation, and exploration process is repeated for each one. Each file has been cleaned and explored individually, which allowed me to lay out all of my findings at the end to produce a comprehensive summary containing key business insights and recommendations. The dataset can be previewed and downloaded here: https://www.kaggle.com/datasets/akxiit/blinkit-sales-dataset/data.
+
+### Data Description & Research Questions
+**File 1: Blinkit Products**
+This file contains key product information regarding pricing, profit margins, as well as stock and inventory. 
+*Note: the 'mrp' column stands for 'Maximum Retail Price'.*
+Research Questions:
+- What is the average list price and profit margin across all products, and how do these vary across different categories?
+- Which products have the highest and lowest profit margins?
+- In which categories do we see the highest and lowest levels of product?
+
+**File 2: Blinkit Deliveries**
+This file contains information on order totals, delivery dates, times, and on-time status.
+Research Questions:
+- How frequently are deliveries late?
+- Is there a correlation between order total and delivery time delays?
+- Are any delivery partners, customers, or stores having repeated issues with deliveries?
+
+**File 3: Blinkit Units**
+The third file contains information on unit sales and pricing.
+Research Questions:
+- fill
+
+
 ### Methodology:
 1. Data Cleaning & Preprocessing:
 Load and inspect the datasets using Pandas.
 Handle missing values and inconsistent data entries if necessary.
 Convert categorical data into appropriate formats.
-Merge relevant datasets to create a unified view for analysis.
 
 2. Exploratory Data Analysis (EDA):
 Generate summary statistics for key numerical and categorical variables.
@@ -23,17 +47,9 @@ Develop time-series plots to analyze seasonal patterns in sales.
 Use heatmaps to identify relationships between different features (e.g., sales and marketing spend).
 Visualize inventory turnover and stockout trends.
 
-
-4. Research Questions:
-What are the top-selling products and categories based on sales revenue and order volume?
-How does pricing impact sales performance?
-What is the relationship between marketing spend and sales growth?
-How efficient is the delivery process, what are areas the business is ?
-Are there seasonal patterns in sales, and how do they affect inventory levels?
-How can inventory management be optimized to reduce stockouts and overstocking?
+### Challenges & Limitations
+- (FIX)Lack of variability in the number or orders placed at each store and deliveries made by each partner. Across the board the values for both of these instances is 1 or 0, leaving analysis of stores or partners who are experiencing frequent delivery issues or success up in the air. Either a store had a late delivery or they did not, all stores only recieved 1 order.
 
 ### Tools & Technologies:
 - Python Libraries: Pandas, NumPy, Matplotlib, Seaborn.
 - Jupyter Notebook: For code execution and analysis.
-
-TODO: check currency rate on og readme!
