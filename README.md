@@ -23,10 +23,18 @@ Research Questions:
 - Are any delivery partners, customers, or stores having repeated issues with deliveries?
 
 **File 3: Blinkit Units**
-The third file contains information on unit sales and pricing.
+This file contains information on unit sales and pricing.
 Research Questions:
 - fill
 
+**File 4: Blinkit Marketing Performance**
+This file contains key information on the marketing performance of the business.
+- Optimize ad spend allocation
+- Spot seasonal trends
+- Understand audience behavior
+- Detect correlations and key drivers
+- Classify campaigns based on ROAS to prioritize high-performing ones:
+- App channel has highest budget but Social Media returns the most revenue.\
 
 ### Methodology:
 1. Data Cleaning & Preprocessing:
