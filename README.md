@@ -36,6 +36,18 @@ This file contains key information on the marketing performance of the business.
 - Classify campaigns based on ROAS to prioritize high-performing ones:
 - App channel has highest budget but Social Media returns the most revenue.\
 
+**File 5: Blinkit Inventory**
+This file contains *may be ommited*
+- Optimize ad spend allocation
+- Spot seasonal trends
+- Understand audience behavior
+
+
+-OMIT-
+File 6 is a file containing information on inventory
+File 7 contiained blinkit delivery times much like file 2 with one additional column that listed "Naan" or "Traffic" if there was a delivery delay.
+
+
 ### Methodology:
 1. Data Cleaning & Preprocessing:
 Load and inspect the datasets using Pandas.
