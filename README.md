@@ -37,3 +37,9 @@ Visualize inventory turnover and stockout trends.
 ### Tools & Technologies:
 - Python Libraries: Pandas, NumPy, Matplotlib, Seaborn.
 - Jupyter Notebook: For code execution and analysis.
+
+### Business Recommendations
+
+- Inventory Management: Focus restocking efforts on high-demand SKUs and monitor low turnover items to reduce holding costs.
+- Marketing Strategy: Refine ad targeting based on conversion performance rather than reach alone.
+- Promotional Timing: Schedule discounts or ads during peak demand hours identified in order data.
