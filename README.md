@@ -32,7 +32,7 @@ Use heatmaps to identify relationships between different features (e.g., sales a
 Visualize inventory turnover and stockout trends.
 
 ### Challenges & Limitations
-- There is a lack of variability in the number or orders placed at each store and deliveries made by each partner. Across the board the values for both of these instances is 1 or 0, leaving analysis of stores or partners who are experiencing frequent delivery issues or success up in the air. Either a store had a late delivery or they did not, all stores only recieved 1 order.
+- There is a lack of variability in the number or orders placed at each store and deliveries made by each partner. Across the board the values for both of these instances is 1 or 0, leaving analysis of stores or partners who are experiencing frequent delivery issues or successes up in the air. Either a store had a late delivery or they did not, all stores only recieved 1 order, all partners delivered only one order.
 
 ### Tools & Technologies:
 - Python Libraries: Pandas, NumPy, Matplotlib, Seaborn.
