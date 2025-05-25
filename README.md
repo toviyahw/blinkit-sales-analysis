@@ -11,6 +11,7 @@ The project uses multiple CSV files:
 - `blinkit_delivery_performance.csv` — Delivery metrics like time and distance
 - `blinkit_inventory.csv` & `blinkit_inventoryNew.csv` — Inventory stock data
 - `blinkit_marketing_performance.csv` — Campaign metrics such as reach and conversions
+- `blinkit_customers.csv` & `blinkit_customer_feedback.csv` - Deails on customers and feedback given by them.
 
 
 ### Methodology:
