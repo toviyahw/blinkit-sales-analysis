@@ -78,7 +78,7 @@ Visualize inventory turnover and stockout trends.
   - *`124290` (12.26%)*
   - *`317242`, `661577`, `897083`, etc. (above 8%)*
  
-   **Recommendation:**
+   **Recommendation:**\
   Investigate packaging, handling, or supplier practices during high-damage months. Apply quality checks or consider different suppliers for persistently damaged SKUs.
 
 ---
@@ -88,7 +88,7 @@ Visualize inventory turnover and stockout trends.
 - **On-time orders** average only **2.47 minutes**
 - There is no observed correlation between order total and delivery speed
 
- **Recommendation (Limited due to little variation in Store and Partner delivery data):**
+ **Recommendation (Limited due to little variation in Store and Partner delivery data):**\
  Conduct root-cause analysis on logistics delays. Consider:
  - Revising delivery staff scheduling/coverage
  - Adjusting ETA shown to customers
@@ -102,7 +102,7 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
 - **Customers place an average of 2.3 orders**
 - **Top customers placed a similar number of orders**. The top customer placed 9 orders, followed by two customers placing 8, and many others placing 7.
 
- **Recommendation:**
+ **Recommendation:**\
  Identify top repeat customers and offer **excusive deals or early access** promotions. These users are beneficial for word-of-mouth marketing and retention.
  Segment customers by spending tiers. Develop personalized marketing for:
  - High-frequency buyers (loyalty program or tiered rewards)
@@ -114,7 +114,7 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
 - A heatmap of impressions, clicks, conversions, spend, and revenue shows **weak linear correlation**
 - This suggests **non-linear behavior** such as **diminishing returns** and complex audience responses
 
- **Recommendations:**
+ **Recommendations:**\
  Use non-linear modeling techniques to uncover more accurate patterns. Consider A/B testing budget increments to identify points where performance levels out.
 
 #### 7b. ROAS across Campaign Groups are Fairly Even
@@ -126,21 +126,21 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
   - *Festival Offer (2.77)*
   - *App Push Notification (2.76)*
 
- **Recommendation:**
+ **Recommendation:**\
  Prioritize **Email and Push Notifications** in upcoming campaigns. Analyze what made campaign `664981` successful and replicate its audience/message mix.
 
 #### 7c. Budget Efficiency
 - **Category Promotions** had the **highest ad spend at $22,206.99**, but the **lowest average ROAS (2.69)**.
 - App Push notifications had the **lowest spend**, but one of the **highest average ROAS** values.
 
- **Recommendation:**
+ **Recommendation:**\
 **Reallocate budget** from underperforming campaign types to those with better ROAS.
 
 #### 7d. 67.81% of Campaigns are Underperforming
 - **3662 out of 5400 campaigns** are **underperforming** (based on the average ROAS).
 - Despite large-scale efforts, the majority of campaigns fail to convert efficiently.
 
- **Recommendation:**
+ **Recommendation:**\
  Consider implementing **automated performance monitoring**. Set benchmarks to pause or tweak underperforming campaigns early and focus spending on proven formats/audience mixes.
 
 #### 7e. ROAS across Channels is uniform, But Engagement Varies
@@ -150,7 +150,7 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
   - *SMS (14.27%)*
   - **CLick-Through Rate (CTR)** follows a similar trend
 
- **Recommendation:**
+ **Recommendation:**\
  Even though ROAS is flat, Email and SMS may offer **better engagement leverage**. Test deeper segmentation or personalization for high-engagement channels.
 
  #### 7f. Audience Groups Perform Similarly
@@ -161,7 +161,7 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
    - Inactive (2.70)*
 - Conversion rates and CTR are also close across segments.
 
- **Recommendation:**
+ **Recommendation:**\
  Focus audience optimization not on **broad segments** but on **micro-behaviors** (past order timing, product category interest, churn risk, etc.).
 
  #### 7g. Weekly Patterns Reveal Performance Opportunities
@@ -169,7 +169,7 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
  - **Sunday** has highest average ROAS (2.77).
  - **Wednesday** has lowest average engagement and conversion rate.
 
- **Recommendation:**
+ **Recommendation:**\
  Launch high-priority campaigns and promotions on **weekends**. Use lower performing days (Wednesday) to testing and lowe-stake efforts.
 
  #### 7h. Daily Performance is Stable with Seasonal Variance
@@ -177,6 +177,40 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
    - *A large peak and subsequent dip around **Nov 2023**
    - *Greater variance in H2 of 2024 (higher highs, lower lows)
   
- **Recommendation:**
+ **Recommendation:**\
  Investigate campaign/event schedules for the late 2023 spike and drop. Increase monitoring during **seasonally volatile periods** for adaptive budgeting.
+
+ ---
+ ### 8. Customer Feedback
  
+ #### 8a. Customer Ratings are Moderate
+- **Average customer rating:** 3.34 out of 5
+- **Standard Deviation** is 1.19, indicating mixed satisfaction levels
+- Average ratings by category:
+  - *Customer Service: 3.37*
+  - *App Experience: 3.36*
+  - *Delivery: 3.33*
+  - *Product Quality: 3.32*
+
+ **Recommendation:**\
+ Montitor shifts in average rating over time. Target the **lowest-rated categories (product quality and delivery)** for improvement initiatives — such as packaging revisions, delivery partner audits, or item descriptions.
+
+#### 8b. Sentiment Distribution is Evenly Split
+- Sentiment Breakdown:
+  - *Neutral: 34.76%*
+  - *Negative: 32.84%*
+  - *Positive: 32.40%*
+ 
+ **Recommendation:**\
+Because negative sentiment is nearly equal to positive, focus on **closing the gap** by indentifying common customer pain points and systematically adressing them through operations and messaging.
+
+#### 8c. Top Causes of Negative Feedback Identified
+- Most common reasons customers leave negative feedback:
+  - *Late deliveries*
+  - *Damaged products*
+  - *Perceived overpricing or poor product quality*
+  - *Receiving the wrong item*
+ 
+ **Recommendation:**\
+Build a feedback-to-action loop: route complaint categories directly to responsible teams (logistics, inventory, etc).
+Introduce a **report-issue flow** in the platform that allows customers to tag complaints by reason, improving traceability and resolution speed.
