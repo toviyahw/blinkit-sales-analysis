@@ -140,7 +140,7 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
    - *All (2.77)*
    - *New Users (2.75)*
    - *Premium (2.74)*
-   - Inactive (2.70)*
+   - *Inactive (2.70)*
 - Conversion rates and CTR are also close across segments.
 
  **✅ Recommendation:**\
