@@ -35,6 +35,9 @@ The complete and original dataset can be previewed and downloaded here: https://
 
 ---
 ### 2. Product Popularity vs. Revenue
+![Top 10 Products by Revenue](images/top_10_revenue_products.png)
+*Top products by total revenue — note that not all highly ordered items are high earners.*
+
 - The most frequently ordered items and the items generating the most revenue do not fully overlap
 - Product_id `51036` is a strong performer, appearing at the top for order frequency and revenue generation
 - Some of the most ordered products generate lower revenue, suggesting low prices or margins
