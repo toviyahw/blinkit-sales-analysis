@@ -194,8 +194,8 @@ Because negative sentiment is nearly equal to positive, focus on **closing the g
   - *Receiving the wrong item*
  
  **✅ Recommendation:**\
-Build a feedback-to-action loop: route complaint categories directly to responsible teams (logistics, inventory, etc).
-Introduce a **report-issue flow** in the platform that allows customers to tag complaints by reason, improving traceability and resolution speed.
+Route complaint categories directly to responsible teams (logistics, inventory, etc).
+Introduce a feature in the platform that allows customers to tag complaints by reason, improving resolution speed.
 
 ---
 ## 📌 Overall Recommendations Summary
