@@ -1,3 +1,4 @@
+
 # Blinkit Sales Analysis
 
 ## ⭐ Purpose:
@@ -35,7 +36,7 @@ The complete and original dataset can be previewed and downloaded here: https://
 
 ---
 ### 2. Product Popularity vs. Revenue
-![Top 10 Products by Revenue](images/top_10_revenue_products.png)
+![Top 10 Products by Revenue](images/top_10_rev_products.png)
 *Top products by total revenue — note that not all highly ordered items are high earners.*
 
 - The most frequently ordered items and the items generating the most revenue do not fully overlap
@@ -55,6 +56,9 @@ The complete and original dataset can be previewed and downloaded here: https://
   
 ---
 ### 4. Inventory Loss
+![Stock vs Damaged Over Time](images/monthly_stock.png)
+*Comparison of inventory received vs damaged over time.*
+
 - Highest rates of overall damaged stock received occurred in:
   - *August 2023 (24.4%)*
   - *October 2023 (19.2%)*
@@ -68,6 +72,9 @@ The complete and original dataset can be previewed and downloaded here: https://
 
 ---
 ### 5. Delivery Performance and Customer Ordering Behavior
+![Delivery Time Distribution](images/delivery_delay_dist.png) \
+*Histogram showing variation in delivery durations across all orders.*
+
 - **61.96% of deliveries were late**
 - **Average delivery time** across all orders: **4.44 minutes**
 - **On-time orders** average only **2.47 minutes**
@@ -103,6 +110,9 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
  Use non-linear modeling techniques to uncover more accurate patterns. Consider A/B testing budget increments to identify points where performance levels out.
 
 #### 7b. ROAS across Campaign Groups are Fairly Even
+![ROAS by Campaign Group](images/roas_by_campaign.png)
+*Average ROAS comparison across different campaign strategies.*
+
 - ROAS is relatively even across campaigns, channels, and target audiences with little variation
 - Email campaigns show strongest ROAS
 - **Highest ROAS Campaign:** ID `664981`(Email to New Users via Social Media) with **ROAS of 4.0**
@@ -181,6 +191,9 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
  Monitor shifts in average rating over time. Target the **lowest-rated categories (product quality and delivery)** for improvement initiatives — such as packaging revisions, delivery partner audits, or item descriptions.
 
 #### 8b. Sentiment Distribution is Evenly Split
+![Sentiment Over Time](images/sentiment_trends.png) \
+*Monthly trend of customer sentiment reveals shifting satisfaction levels.*
+
 - Sentiment Breakdown:
   - *Neutral: 34.76%*
   - *Negative: 32.84%*
