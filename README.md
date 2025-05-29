@@ -143,7 +143,7 @@ Though all customers deserve fast delivery, consider premium delivery perks for 
 - **Engagement Rate** is highest for:
   - *Email (14.85%)*
   - *SMS (14.27%)*
-  - **CLick-Through Rate (CTR)** follows a similar trend
+  - **Click-Through Rate (CTR)** follows a similar trend
 
  **✅ Recommendation:**\
  Even though ROAS is flat, Email and SMS may offer **better engagement leverage**. Test deeper segmentation or personalization for high-engagement channels.
