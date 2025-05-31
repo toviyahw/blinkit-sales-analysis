@@ -214,7 +214,7 @@ Route complaint categories directly to responsible teams (logistics, inventory, 
 Introduce a feature in the platform that allows customers to tag complaints by reason, improving resolution speed.
 
 ---
-## 📌 Overall Recommendations Summary
+## 📌 Overall Recommendations Summary:
 
 | Area            | Key Action                                                        |
 |-----------------|-------------------------------------------------------------------|
