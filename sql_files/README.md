@@ -1,4 +1,4 @@
-# SQL Directory Overview
+# SQL File Directory Overview
 
 - `schema/` → Core tables setup
 - `views/` → Views for Tableau integration
