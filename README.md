@@ -17,8 +17,12 @@ The complete and original dataset can be previewed and downloaded here: https://
 - There is a lack of variability in the number of orders placed at each store and deliveries made by each partner. Across the board the values for both of these instances are 1 or 0, leaving analysis of stores or partners who are experiencing frequent delivery issues or successes up in the air. Either a store had a late delivery or they did not. All stores only received 1 order, and all partners delivered only one order.
 
 ## 🛠 Tools and Technologies:
-- Python Libraries: Pandas, NumPy, Matplotlib, Seaborn.
-- Jupyter Notebook and VS Studio: Code execution and analysis.
+- Tools: Python, PostgreSQL, Tableau, VS Studio, PgAdmin4
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn.
+
+## Tableau Dashboard:
+![Tableau Dashboard Snapshot](images/bi_dashboard.png)
+*Link to view interactive dashboard to be uploaded*
 
 ## 💡 Business Insights and Recommendations:
 
