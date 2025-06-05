@@ -13,7 +13,7 @@ Blinkit is an online grocery delivery service based in India. In beginning my an
 
 The complete and original dataset can be previewed and downloaded here: https://www.kaggle.com/datasets/akxiit/blinkit-sales-dataset/data.
 
-## 🚩 Challenges and Limitations:
+## 🚩 Limitations:
 - There is a lack of variability in the number of orders placed at each store and deliveries made by each partner. Across the board the values for both of these instances are 1 or 0, leaving analysis of stores or partners who are experiencing frequent delivery issues or successes up in the air. Either a store had a late delivery or they did not. All stores only received 1 order, and all partners delivered only one order.
 
 ## 🛠 Tools and Technologies:
