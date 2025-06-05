@@ -22,7 +22,7 @@ The complete and original dataset can be previewed and downloaded here: https://
 
 ## Tableau Dashboard:
 ![Tableau Dashboard Snapshot](images/bi_dashboard.png)
-*Link to view interactive dashboard to be uploaded*
+*[Click Here to View Interactive Dashboard](https://public.tableau.com/views/BlinkitSalesAnalysisBIDashboard/BIDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)*
 
 ## 💡 Business Insights and Recommendations:
 
